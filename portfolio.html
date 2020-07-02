@@ -17,18 +17,33 @@
             <a href="index.html" class="logo text-style-bold"><span class="logo-first"> Web</span>Studio</a>
 
             <nav>
-                <ul class=" site-nav list">
-                    <li class="item"><a href="index.html" class="main-menu link ">Студия</a></li>
-                    <li class="item"><a href="portfolio.html" class="main-menu link current-page">Портфолио</a></li>
-                    <li class="item"><a href="#" class="main-menu link">Контакты</a></li>
+                <ul class="site-nav list">
+                    <li class="item">
+                        <a href="index.html" class="main-menu link ">Студия</a>
+                    </li>
+                    <li class="item">
+                        <a href="portfolio.html" class="main-menu link current-page">Портфолио</a>
+                    </li>
+                    <li class="item">
+                        <a href="#" class="main-menu link">Контакты</a>
+                    </li>
                 </ul>
             </nav>
             <ul class="head-contact list">
-                <li class="item"><a href="mailto:info@devstudio.com" class="contacts link"> <img
-                            src="./img/envelope-logo.svg" alt="иконка электронная почта"> info@devstudio.com</a> </li>
-                <li class="item"><a href="tel:+380961111111" class="contacts link"> <img src="./img/logo-phone.svg"
-                            alt="иконка телефон">+38
-                        096 111 11 11</a></li>
+                <li class="item">
+                    <a href="mailto:info@devstudio.com" class="contacts-header link">
+                        <svg class="mail-icon">
+                            <use href="./img/symbol-defs.svg#icon-mail-logo"></use>
+                        </svg>
+                        info@devstudio.com </a>
+                </li>
+                <li class="item">
+                    <a href="tel:+380961111111" class="contacts-header link">
+                        <svg class="phone-icon">
+                            <use href="./img/symbol-defs.svg#icon-logo-phone"></use>
+                        </svg>
+                        +38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -161,11 +176,12 @@
     <footer>
         <div class="container">
             <div class="for-align">
-                <a href="index.html" class="logo-footer text-style-bold"><span class="logo-first">
-                        Web</span>Studio</a>
+                <a href="index.html" class="logo-footer text-style-bold"><span class="logo-first"> Web</span>Studio</a>
                 <address>
                     <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-                    <a href=" mailto:info@devstudio.com" class="link footer-link"> info@devstudio.com </a>
+                    <a href=" mailto:info@devstudio.com" class="link footer-link">
+                        info@devstudio.com
+                    </a>
                     <a href="tel:+380961111111" class="link footer-link">+38 096 111 11 11</a>
                 </address>
             </div>
@@ -173,21 +189,43 @@
             <div class="for-align">
                 <h4 class="footer-title">присоединяйтесь</h4>
                 <ul class="list social-networks footer-social-networks">
-                    <li class="item"><a href="https://www.instagram.com" class="link"><img src="./img/instagram.svg"
-                                alt="Логотип Instagrame"></a></li>
-                    <li class="item"><a href="https://twitter.com" class="link"><img src="./img/twitter.svg"
-                                alt="Логотип Twitter"></a></li>
-                    <li class="item"> <a href="https://www.facebook.com/" class="link"><img src="./img/facebook.svg"
-                                alt="Логотип Facebook"></a>
+                    <li class="item">
+                        <button class="but-social-net">
+                            <svg class="soc-icon">
+                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </button>
                     </li>
-                    <li class="item"><a href="https://www.linkedin.com/" class="link"><img src="./img/linkedin.svg"
-                                alt="Логотип LinkedIn">
-                        </a></li>
+                    <li class="item">
+                        <button class="but-social-net">
+                            <svg class="soc-icon">
+                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <button class="but-social-net">
+                            <svg class="soc-icon">
+                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </button>
+                    </li>
+                    <li class="item">
+                        <button class="but-social-net">
+                            <svg class="soc-icon">
+                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                            </svg>
+                        </button>
+                    </li>
                 </ul>
             </div>
             <div class="for-align">
                 <h4 class="footer-title">Подпишитесь на рассылку</h4>
-                <a href="#">Подписатся</a>
+                <button class="subscribe-btn text-style-bold">Подписаться
+                    <svg class="send-icon">
+                        <use href="./img/symbol-defs.svg#send-icon"></use>
+                    </svg>
+                </button>
             </div>
         </div>
 
