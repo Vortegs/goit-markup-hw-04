@@ -303,7 +303,7 @@ header>.container {
 
   width: 44px;
   height: 44px;
-  
+
   padding: 0;  
   margin: 16px 0px 0 0;
 
@@ -494,6 +494,7 @@ footer .but-social-net {
   text-align: center;
   color: var(--title-text-color);
   background-color: #f5f4fa;
+  border: none;
   border-radius: 4px;
 }
 
